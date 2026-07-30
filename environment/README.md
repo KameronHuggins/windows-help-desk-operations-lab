@@ -64,7 +64,7 @@ NG1
 
 This structure separates systems, user accounts, security groups, service accounts, and disabled accounts so that they can be managed independently.
 
-![Active Directory organizational structure](01-active-directory-structure.png)
+![Active Directory organizational structure](01-active-directory-structure.PNG)
 
 ---
 
@@ -101,7 +101,7 @@ Department security group
 Resource permission
 ```
 
-![Departmental security groups](02-security-groups.png)
+![Departmental security groups](02-security-groups.PNG)
 
 ---
 
@@ -121,7 +121,7 @@ Finance departmental resource
 
 This approach allows access to be granted or removed by changing group membership without modifying the resource permissions for each individual employee.
 
-![Example user group membership](03-user-group-membership.png)
+![Example user group membership](03-user-group-membership.PNG)
 
 ---
 
@@ -145,7 +145,7 @@ C:\Shares\SALES
 
 These folders will eventually be migrated or recreated on FS01 when the dedicated file-server role is implemented.
 
-![Departmental shared folders](04-departmental-shares.png)
+![Departmental shared folders](04-departmental-shares.PNG)
 
 ---
 
@@ -172,7 +172,7 @@ Department Modify Group        Modify
 
 Ordinary departmental users are not granted Full Control and are not permitted to change the resource's access control list.
 
-![Example NTFS permission configuration](05-ntfs-permissions.png)
+![Example NTFS permission configuration](05-ntfs-permissions.PNG)
 
 ---
 
@@ -208,7 +208,7 @@ The VirtualBox environment currently contains:
 
 These systems provide the foundation for future Help Desk, system-administration, networking, and security scenarios.
 
-![VirtualBox lab systems](06-virtualbox-systems.png)
+![VirtualBox lab systems](06-virtualbox-systems.PNG)
 
 ---
 
@@ -238,7 +238,7 @@ Later snapshots may be created after major milestones such as:
 
 Minor account changes or individual password resets will not necessarily require a new snapshot.
 
-![Enterprise lab baseline snapshot](07-enterprise-lab-baseline.png)
+![Enterprise lab baseline snapshot](07-enterprise-lab-baseline.PNG)
 
 ---
 
