@@ -64,7 +64,7 @@ NG1
 
 This structure separates systems, user accounts, security groups, service accounts, and disabled accounts so that they can be managed independently.
 
-![Active Directory organizational structure](01-active-directory-structure.PNG)
+![Active Directory organizational structure](01-active-directory-structure.png)
 
 ---
 
@@ -172,7 +172,7 @@ Department Modify Group        Modify
 
 Ordinary departmental users are not granted Full Control and are not permitted to change the resource's access control list.
 
-![Example NTFS permission configuration](05-ntfs-permissions.PNG)
+![Example NTFS permission configuration](05-ntfs-permissions.png)
 
 ---
 
@@ -208,7 +208,7 @@ The VirtualBox environment currently contains:
 
 These systems provide the foundation for future Help Desk, system-administration, networking, and security scenarios.
 
-![VirtualBox lab systems](06-virtualbox-systems.PNG)
+![VirtualBox lab systems](06-virtualbox-systems.png)
 
 ---
 
