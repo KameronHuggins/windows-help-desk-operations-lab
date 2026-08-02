@@ -112,7 +112,9 @@ Detailed infrastructure documentation and baseline screenshots are available in 
 
 | Ticket | Description | Status |
 |---|---|---|
-| [HD-001 — Finance User Cannot Modify Department Share](tickets/HD-001-Finance-User-Cannot-Modify-Department-Share) | Investigated a Finance user who could read departmental files but could not modify or save them. The expected Finance security group was missing from the folder's NTFS access control list. | Resolved |
+| [HD-001 — Finance User Cannot Modify Department Share](tickets/HD-001-Finance-User-Cannot-Modify-Department-Share) | Investigated a Finance user who could read departmental files but could not modify or save them because the required security group was missing from the folder’s NTFS ACL. | Resolved |
+| [HD-002 — Finance User Cannot Sign In](tickets/HD-002-Finance-User-Cannot-Sign-In) | Investigated a locked domain account by reviewing account restrictions and correlating Security Event IDs 4625 and 4740 before unlocking the account and resetting the password. | Resolved |
+| [HD-008 — Onboard Ethernet Has No Link](tickets/HD-008-onboard-ethernet-no-link) | Diagnosed a workstation network issue involving the onboard Ethernet adapter, reviewed adapter and driver status, and restored network connectivity. | Resolved |
 
 Additional tickets will be added as they are investigated and completed.
 
